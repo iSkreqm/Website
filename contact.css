@@ -46,18 +46,22 @@ body{
 }
 .btn{
   display: inline-block;
+  font-family: "Ubuntu", sans-serif;
   background: #9b59b6;
   padding: 14px 0;
   color: white;
   text-transform: uppercase;
+  border: none;
   cursor: pointer;
   margin-top: 8px;
   width: 100%;
   transition: .3s linear;
+  border-radius: 7px;
 }
 
 .btn:hover{
   display: inline-block;
+  border: none;
   background: #8646a0;
   padding: 14px 0;
   color: white;
@@ -69,6 +73,7 @@ body{
 
 .title{
   color: #fff;
+  font-size: 150%;
 }
 
 .retour{
